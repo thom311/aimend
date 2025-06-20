@@ -333,4 +333,7 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    common.run_main(main)
+    common.run_main(
+        main,
+        error_code_keyboard_interrupt=0,
+    )
